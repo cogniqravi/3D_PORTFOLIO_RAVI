@@ -9,7 +9,7 @@ import { SectionWrapper } from '../Hoc';         // higher order function
 import { slideIn } from '../utils/motion';
 
 const EMAILJS_SERVICE_ID  = 'service_ciuut4h';
-const EMAILJS_TEMPLATE_ID = 'template_vmiawbm';
+const EMAILJS_TEMPLATE_ID = 'ravi_mane2026';
 const EMAILJS_PUBLIC_KEY  = 'x899Gq6z7bRRfcUoO';
 
 const Contact = () => {
