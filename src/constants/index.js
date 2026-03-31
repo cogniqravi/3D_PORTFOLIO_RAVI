@@ -46,22 +46,38 @@ export const navLinks = [
   },
 ];
 
+export const socialLinks = [
+  {
+    name: "GitHub",
+    icon: github,
+    link: "https://github.com/cogniqravi",
+  },
+  {
+    name: "LinkedIn",
+    icon: backend, // Placeholder for LinkedIn icon
+    link: "https://linkedin.com/",
+  },
+];
+
+export const resumeLink = "/Ravi_Resume.pdf";
+
+
 const services = [
   {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Full Stack Developer",
     icon: reactjs,
   },
   {
-    title: "Backend Developer",
+    title: "AI Solutions",
     icon: backend,
   },
   {
-    title: "3D Modeling",
-    icon: figma,
+    title: "Cloud & DevOps",
+    icon: creator,
   },
 ];
 
@@ -118,62 +134,46 @@ const technologies = [
     name: "blender",
     icon: blender,
   },
-
 ];
 
 const experiences = [
   {
-    title: "Software Engineer ",
-    company_name: "LK Machinery",
+    title: "Founder",
+    company_name: "Cogniq AI",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "Feb 2025 - Present",
+    points: [
+      "Founding and leading an AI-focused startup dedicated to innovative tool and product development.",
+      "Overseeing the end-to-end lifecycle of AI products, from initial concept and research to full-scale deployment.",
+      "Driving business growth by implementing cutting-edge AI solutions that solve complex real-world challenges.",
+    ],
+  },
+  {
+    title: "Software Developer & DevOps",
+    company_name: "LK Machinery India PVT LTD",
     icon: lk,
     iconBg: "white",
-    date: "Aug 2022 - Present",
+    date: "Aug 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architecting and developing full-fledged CRM and HRMS systems to automate core business processes.",
+      "Managing enterprise-grade server infrastructure on Windows Server 2022 and cloud-based VPS environments.",
+      "Driving DevOps strategy by hosting and scaling mission-critical applications on AWS and custom VPS solutions.",
+      "Bridging the gap between software development and stable infrastructure operations for high-availability systems.",
     ],
   },
   {
-    title: "Web Developer Intern",
-    company_name: "Elite Socio Marketing Solution",
+    title: "Full Stack Developer",
+    company_name: "Sakav Technology",
     icon: mech,
     iconBg: "black",
-    date: "May2022 - June 2022",
+    date: "Jan 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered high-performance web applications using the MERN stack and Next.js for various client projects.",
+      "Delivered SEO-optimized, pixel-perfect frontend designs with high Lighthouse scores and organic reach.",
+      "Collaborated on the end-to-end design and development of multiple production-ready websites and platforms.",
     ],
   },
-  {
-    title: "System Engineer",
-    company_name: "Tata Excel Vehicles",
-    icon: tata,
-    iconBg: "white",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -205,9 +205,30 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Portfolio Ravi",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A premium 3D portfolio website built with React, Three.js, and Framer Motion, showcasing my journey as a Founder and Full Stack Developer.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/cogniqravi/3D_PORTFOLIO_RAVI",
+  },
+  {
+    name: "Full Fledge CRM",
+    description:
+      "A comprehensive CRM system designed for LK Machinery, featuring HRMS integration, automated workflows, and robust data management for enterprise-scale operations.",
     tags: [
       {
         name: "react",
@@ -218,20 +239,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: jobit,
+    source_code_link: "https://github.com/cogniqravi/",
   },
   {
-    name: "Job IT",
+    name: "Next.js SEO Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An SEO-focused web platform built during my tenure at Sakav Tech, utilizing Next.js server-side rendering and performance optimization techniques.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -239,33 +260,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link: "https://github.com/cogniqravi/",
   },
 ];
 

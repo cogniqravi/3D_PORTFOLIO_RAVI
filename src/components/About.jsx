@@ -52,10 +52,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-2.5 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript ,Java and 3D Modeling and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a results-driven Software Developer and Entrepreneur with a strong foundation in Full Stack Development and Operations. 
+        As the Founder of **Cogniq AI**, I lead the development of innovative AI tools and products. With extensive experience 
+        at **LK Machinery India** and **Sakav Technology**, I specialize in building full-fledged CRM/HRMS systems, 
+        SEO-optimized MERN applications, and managing robust cloud infrastructures (AWS/VPS). Let's work together to bring your ideas to life!
       </motion.p> 
 
       <div className='mt-10 flex flex-wrap gap-10'>

@@ -29,9 +29,9 @@ const Hero = () => {
           <p className={`${
             styles.heroSubText
             } mt-2 text-white-100`}>
-              I develop 3D visuals, user 
+              Founder @ Cogniq AI. I build AI-driven products, 
               <br className='sm:block hidden' />
-              interfaces and web applications.
+              high-performance web apps, and scalable cloud solutions.
           </p>
         </div>
       </div>
