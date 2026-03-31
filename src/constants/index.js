@@ -29,6 +29,7 @@ import {
   blender,
   java,
   python,
+  github,
 } from "../assets";
 
 export const navLinks = [
