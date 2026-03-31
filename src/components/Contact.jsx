@@ -9,7 +9,7 @@ import { SectionWrapper } from '../Hoc';         // higher order function
 import { slideIn } from '../utils/motion';
 
 const EMAILJS_SERVICE_ID  = 'service_ciuut4h';
-const EMAILJS_TEMPLATE_ID = 'template_iyqt69v';
+const EMAILJS_TEMPLATE_ID = 'template_vmiawbm';
 const EMAILJS_PUBLIC_KEY  = 'x899Gq6z7bRRfcUoO';
 
 const Contact = () => {
@@ -47,7 +47,6 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'Ravi',
           from_email: form.email,
-          to_email: 'maneravi3332@gmail.com',
           message: form.message,
         },
         EMAILJS_PUBLIC_KEY
