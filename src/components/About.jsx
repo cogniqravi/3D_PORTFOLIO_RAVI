@@ -52,10 +52,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-2.5 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a results-driven Software Developer and Entrepreneur with a strong foundation in Full Stack Development and Operations. 
-        As the Founder of **Cogniq AI**, I lead the development of innovative AI tools and products. With extensive experience 
-        at **LK Machinery India** and **Sakav Technology**, I specialize in building full-fledged CRM/HRMS systems, 
-        SEO-optimized MERN applications, and managing robust cloud infrastructures (AWS/VPS). Let's work together to bring your ideas to life!
+        I am a results-driven Software Developer and Entrepreneur with a strong foundation in Full Stack Development, AI, and Operations. 
+        As the Founder of **Cogniq AI**, I lead the development of innovative AI tools and the **OpenClaw** project. 
+        With expertise in building sophisticated **AI bots**, managing robust PostgreSQL/Supabase backends, and scaling cloud infrastructures 
+        at **LK Machinery**, I deliver high-impact, real-world solutions that solve complex challenges.
       </motion.p> 
 
       <div className='mt-10 flex flex-wrap gap-10'>

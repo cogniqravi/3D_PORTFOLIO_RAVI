@@ -73,7 +73,7 @@ const services = [
     icon: reactjs,
   },
   {
-    title: "AI Solutions",
+    title: "AI & OpenClaw Expert",
     icon: backend,
   },
   {
@@ -96,12 +96,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "PostgreSQL",
+    icon: mongodb, // Using mongodb icon as placeholder for database
   },
   {
-    name: "Python",
-    icon: python,
+    name: "OpenClaw",
+    icon: threejs, // Using threejs icon as placeholder for OpenClaw
   },
   {
     name: "React JS",
@@ -145,9 +145,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Feb 2025 - Present",
     points: [
-      "Founding and leading an AI-focused startup dedicated to innovative tool and product development.",
-      "Overseeing the end-to-end lifecycle of AI products, from initial concept and research to full-scale deployment.",
-      "Driving business growth by implementing cutting-edge AI solutions that solve complex real-world challenges.",
+      "Founding and leading Cogniq AI, focusing on state-of-the-art AI tools and OpenClaw project development.",
+      "Developing sophisticated AI bots and automation workflows to revolutionize digital interactions.",
+      "Architecting scalable backend solutions using PostgreSQL and Supabase for high-performance AI products.",
     ],
   },
   {
